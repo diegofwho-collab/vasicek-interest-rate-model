@@ -21,7 +21,7 @@ The short-term interest rate dynamics are modeled through the stochastic differe
 
 $$dr_t = a(b - r_t)dt + \sigma dW_t$$
 
-Donde:
+Where:
 * $a$: Speed of mean reversion.
 * $b$: Long-term equilibrium level.
 * $\sigma$: Volatility parameter.
