@@ -10,7 +10,7 @@ The Vasicek model was implemented in Python using:
 
 ## Data Selection
 
-Although the dataset contains observations since 1986, only data from 2000 onward were considered in the analysis.
+Although the dataset contains observations since 1982, only data from 2000 onward were considered in the analysis.
 
 Earlier observations were excluded due to periods of hyperinflation and extreme volatility, which would significantly distort the estimation of the long-term mean and volatility parameters.
 
