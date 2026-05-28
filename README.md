@@ -79,3 +79,13 @@ The simulations reproduce the mean-reverting behavior predicted by the model whi
 
 ![Simulation Paths](figures/simulated_paths.png)
 
+The simulations successfully reproduce the general behavior of the observed CETES series, suggesting that the estimated parameters provide an adequate representation of the underlying interest rate dynamics. In particular, a noticeable concentration of trajectories around the interval $(0.05, 0.06)$ can be observed, indicating convergence toward the estimated long-term equilibrium level of the process.
+
+
+---
+
+## Validation 
+
+**Moment Validation
+
+![Moments Validation](figures/comp.png)
