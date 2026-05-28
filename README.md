@@ -61,6 +61,21 @@ The historical CETES series exhibits clear changes in volatility across differen
 ![Historical Rates](figures/historical_rates.png)
 
 
+### Parameter Estimation
 
+The estimated Vasicek parameters suggest the presence of mean-reverting dynamics in CETES interest rates.
 
+- Mean reversion speed: $\hat{a}=0.3607$
+- Long-term equilibrium level: $\hat{b}=0.0587$
+- Volatility parameter: $\hat{\sigma}= 0.0178$
+
+The estimated parameters capture the essential dynamics of 28-day CETES interest rates. The mean reversion speed, ( $\hat{a} = 0.3607$ ), suggests a moderate adjustment toward equilibrium after external shocks. The long-term mean, ( $\hat{b} = 5.87%\$ ), reflects the average interest rate level under stable inflation conditions, while the estimated volatility, ( $\hat{\sigma} = 0.0178$ ), indicates that stochastic fluctuations remain consistent with the model’s long-run mean-reverting behavior.
+
+### Simulated Interest Rate Paths
+
+Using the estimated parameters, multiple stochastic trajectories were simulated under the Vasicek framework.
+
+The simulations reproduce the mean-reverting behavior predicted by the model while illustrating possible future interest rate scenarios.
+
+![Simulation Paths](figures/simulated_paths.png)
 
