@@ -86,6 +86,32 @@ The simulations successfully reproduce the general behavior of the observed CETE
 
 ## Validation 
 
-**Moment Validation
+**Moment Validation**
 
 ![Moments Validation](figures/comp.png)
+
+The simulated series presents a slightly lower mean (6.20%) and volatility (2.48%) compared to the historical data (6.88% and 2.98%). This behavior is mainly explained by the model’s mean-reverting structure and constant volatility assumption, which limit its ability to capture prolonged high-rate periods and extreme market fluctuations observed in the real CETES series.
+
+---
+
+### 🧠 Model Limitations
+
+Although the Vasicek model successfully captures the mean-reverting nature of interest rates, the empirical analysis reveals important limitations.
+
+The assumption of constant parameters and constant volatility restricts the model’s ability to represent periods of extreme market stress and abrupt volatility changes observed in real financial data.
+
+As a result, the model provides a SIMPLIFIED approximation of market dynamics rather than a complete representation of interest rate behavior.
+
+
+---
+
+### 📑 Conclusions
+
+The Vasicek framework provides analytical tractability and a solid introduction to continuous-time stochastic interest rate modeling.
+
+Despite its limitations, the model offers valuable insights into:
+- mean reversion dynamics,
+- stochastic financial modeling,
+- and parameter estimation techniques in quantitative finance.
+  
+The results also motivate the exploration of more flexible extensions such as the CIR and Hull–White models and invites to study how assets behave under financial stress
