@@ -138,6 +138,6 @@ This project provided a complete workflow from stochastic theory to empirical im
 
 ## 🔧 Tools and technologies 
 
-
+`Python` `Numpy` `Pandas` `Statsmodels` `Scipy` `Matplotlib` `Jupyter Notebook`
 
 
