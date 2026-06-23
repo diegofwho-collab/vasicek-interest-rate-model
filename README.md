@@ -1,6 +1,13 @@
 # Vasicek Interest Rate Model
 
-Modeling Mexican interest rates using the Vasicek stochastic process, maximum likelihood estimation, and Monte Carlo simulation.
+Developed a complete Vasicek interest rate framework for Mexican CETES data, including parameter estimation, stochastic simulation, model validation, and financial interpretation.
+---
+
+## 🔑 Key Results
+- Estimated mean reversion speed: 0.3607
+- Long-term equilibrium rate: 5.87%
+- Volatility parameter: 1.78%
+
 ---
 
 ## 🔍 Overview
@@ -114,4 +121,23 @@ Despite its limitations, the model offers valuable insights into:
 - stochastic financial modeling,
 - and parameter estimation techniques in quantitative finance.
   
-The results also motivate the exploration of more flexible extensions such as the CIR and Hull–White models and invites to study how assets behave under financial stress
+This project provided a complete workflow from stochastic theory to empirical implementation, illustrating how continuous-time financial models can be estimated, validated, and applied to real market data.
+
+---
+
+## 🧠 Skills Demonstrated
+
+- Stochastic Processes
+- Interest Rate Modeling
+- Maximum Likelihood Estimation
+- Monte Carlo Simulation
+- Time Series Analysis
+- Quantitative Finance
+
+---
+
+## 🔧 Tools and technologies 
+
+
+
+
